@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechFinderWebAPI", "TechFinderWebAPI\TechFinderWebAPI.csproj", "{1716066B-7380-4C16-BE17-FEEA6CFA3B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularUI", "AngularUI\AngularUI.csproj", "{CA3FB001-AA60-44FE-A1DD-F3F0AECCB0E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D13073ED-36A7-407B-AE23-3A1FCE108C3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRUD scripts", "CRUD scripts", "{C613B4BF-BD3B-4830-A342-E6DEACF646FE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\SQL Server Management Studio\TechFinder\Tablecreationscripts.sql = ..\..\..\SQL Server Management Studio\TechFinder\Tablecreationscripts.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stored Procedures", "Stored Procedures", "{79F8E505-462E-4E78-BE7A-C379EA9D51B5}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\SQL Server Management Studio\TechFinder\SP_FindTechnicianByLocation.sql = ..\..\..\SQL Server Management Studio\TechFinder\SP_FindTechnicianByLocation.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1716066B-7380-4C16-BE17-FEEA6CFA3B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1716066B-7380-4C16-BE17-FEEA6CFA3B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1716066B-7380-4C16-BE17-FEEA6CFA3B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1716066B-7380-4C16-BE17-FEEA6CFA3B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3FB001-AA60-44FE-A1DD-F3F0AECCB0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3FB001-AA60-44FE-A1DD-F3F0AECCB0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3FB001-AA60-44FE-A1DD-F3F0AECCB0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3FB001-AA60-44FE-A1DD-F3F0AECCB0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C613B4BF-BD3B-4830-A342-E6DEACF646FE} = {D13073ED-36A7-407B-AE23-3A1FCE108C3D}
+		{79F8E505-462E-4E78-BE7A-C379EA9D51B5} = {D13073ED-36A7-407B-AE23-3A1FCE108C3D}
+	EndGlobalSection
+EndGlobal
